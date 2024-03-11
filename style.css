@@ -118,7 +118,7 @@ button {
 
 @media screen and (min-width: 320px) {
   .container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .container__botoes {
@@ -170,12 +170,12 @@ button {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   h1 {
-    padding-bottom: 18rem;
+    padding-bottom: 22rem;
     font-size: 4rem;
   }
 
   .texto__paragrafo {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .container__botao {
@@ -217,6 +217,9 @@ button {
   }
 
   @media screen and (min-width: 1280px) {
+    .container{
+      height: 90vh;
+    }
     h1 {
       padding-bottom: 20rem;
       font-size: 4.2rem;
